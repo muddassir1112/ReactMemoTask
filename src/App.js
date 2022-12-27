@@ -5,6 +5,7 @@ import { ComponentD } from './Task1/ComponentD';
 import ParentComponent from './Task2/ParentComponent';
 import { CurrencyConverter } from './Task3/CurrencyConverter';
 import { TextUtility } from './Task4/TextUtility';
+import { NumberToWord } from './Task5/NumberToWord';
 export const userContext = createContext(); // Export Context
 function App() {
 const [userName, setUSerName] = useState("Muddassir Ansari");
@@ -22,6 +23,8 @@ const [userName, setUSerName] = useState("Muddassir Ansari");
     <CurrencyConverter/>
     <hr></hr>
     <TextUtility/>
+    <hr></hr>
+    <NumberToWord/>
     </>
   );
 }
